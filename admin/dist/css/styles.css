@@ -4377,10 +4377,11 @@ input[type=button].btn-block {
 }
 
 .card-header {
+  color:white;
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(46,125,50);
+  border-bottom: 1px solid rgb(48, 179, 54);
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
@@ -9735,7 +9736,7 @@ button.bg-dark:focus {
 }
 
 .font-weight-light {
-  font-weight: 300 !important;
+  font-weight: 350 !important;
 }
 
 .font-weight-lighter {
