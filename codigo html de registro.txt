@@ -1,0 +1,9 @@
+    <input class="controls" type="text" name="cedula" id="nombres" placeholder="Número de cédula">
+    <input class="controls" type="text" name="nombre1" id="nombres" placeholder="Primer nombre">
+    <input class="controls" type="text" name="nombre2" id="apellidos" placeholder="Segundo nombre">
+    <input class="controls" type="text" name="apellido1" id="apellido1" placeholder="Primer apellido">
+    <input class="controls" type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Correo">
+    <input class="controls" type="email" name="direccion" id="direccion" placeholder="Dirección">
+    <input class="controls" type="email" name="telefono" id="telefono" placeholder="Número de teléfono/celular">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">

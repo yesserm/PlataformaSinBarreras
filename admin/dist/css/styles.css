@@ -428,7 +428,7 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 90%;
   font-weight: 400;
 }
 
@@ -2439,11 +2439,11 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #040505;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
-  outline: 0;
+  outline: 0;   
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .btn.disabled, .btn:disabled {
@@ -2455,14 +2455,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
+  color: #ffffff;
+  background-color: #005CB2;
   border-color: #007bff;
 }
+
 .btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  border-color: #6ab7ff;
+  background-color: rgb(41, 113, 180);
+  border-color: #007bff;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -4377,10 +4378,11 @@ input[type=button].btn-block {
 }
 
 .card-header {
+  color:white;
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(46,125,50);
+  border-bottom: 1px solid rgb(48, 179, 54);
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
@@ -6066,7 +6068,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #e8eaf6 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9735,7 +9737,7 @@ button.bg-dark:focus {
 }
 
 .font-weight-light {
-  font-weight: 300 !important;
+  font-weight: 350 !important;
 }
 
 .font-weight-lighter {
