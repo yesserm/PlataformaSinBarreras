@@ -1,6 +1,4 @@
 <?php
-    include 'NotFoundException.php';
-
     class Config{
         private $datos;
         private static $instancia;
