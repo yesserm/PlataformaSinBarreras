@@ -5,30 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/registrar.css">
+  <link rel="stylesheet" href="css/estyle.css">
   <title>Datos personales</title>
 </head>
 <body>
-  <section class="form-register">
+  <section class="form-register" style="margin-top: 10px;">
     <h4>Ingresar datos personales para registrarse.</h4>  
         <input style="width: 97%; text-align: center;" class="controls" type="text" name="cedula" id="nombres" placeholder="Número de cédula (identificación)"><br>
+        <input class="controls" type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="@Correo">
+        <input class="controls" type="password" name="clave" id="clave" placeholder="Contraseña">
+        <input class="controls" type="password" name="repetir" id="repetir" placeholder="Repetir contraseña">
         <input style="float: left;" class="controls" type="text" name="nombre1" id="nombres" placeholder="Primer nombre">
         <input style="width: 48%;" class="controls" type="text" name="nombre2" id="apellidos" placeholder="Segundo nombre">
         <input class="controls" type="text" name="apellido1" id="apellido1" placeholder="Primer apellido">
-        <input class="controls" type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido">
-       <!-- <select name="" id="">
+        <input class="controls" type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido">            
+        <input style="text-align: right;" class="controls" type="telefono" name="telefono" id="telefono" placeholder="Número de teléfono/celular">
+        <input class="controls" type="date" name="fecha" id="fecha" placeholder="">
+        <select id="cb">
             <option value="">Sexo</option>
             <option value="">Masculino</option>
             <option value="">Femenino</option>    
-        </select> -->
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Correo">
-        <input class="controls" type="email" name="direccion" id="direccion" placeholder="Dirección">
-        <input style="text-align: right;" class="controls" type="email" name="telefono" id="telefono" placeholder="Número de teléfono/celular">
-        <input class="controls" type="date" name="fecha" id="fecha" placeholder="">
-      <!--  <select name="" id="">
+        </select>
+         <select id="cb">
             <option value="">Departamentos</option>
-            <option value="">Masculino</option>
-            <option value="">Femenino</option>    
-        </select>--> 
+            <option value="">falta</option>
+            <option value="">falta</option>    
+        </select>-
+        <input style="width: 97%;" class="controls" type="direccion" name="direccion" id="direccion" placeholder="Dirección"> 
     <p>Estoy de acuerdo con <a href="#">Términos y Condiciones</a></p><br>
     <input class="botons" type="submit" onclick="location='index.html'" value="Crear cuenta">
     <p><a href="login.html">¿Ya tengo Cuenta?</a></p>
