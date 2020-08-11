@@ -4,3 +4,12 @@
 body{
     background-color: white;
 }
+.form{
+    margin-top: 50px;
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+}
