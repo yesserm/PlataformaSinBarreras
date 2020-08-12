@@ -3,7 +3,7 @@
 
     $config = Config::getInstancia()->get('db');
     $db = new PDO(
-        'mysql:host=127.0.0.1;dbname=libreria',
+        'mysql:host=127.0.0.1;dbname=plataforma',
         $config["db"]["user"],
         $config["db"]["password"]
     );
