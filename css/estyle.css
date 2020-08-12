@@ -11,3 +11,15 @@
     color: white;
     text-align: center;
 }
+#txA{
+    width: 48%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
