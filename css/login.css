@@ -42,7 +42,7 @@ form{
     width: 100px;
 }
 form h2{
-    font-size: 2.9rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     margin: 15px 0;
     color: #333333;
@@ -165,7 +165,7 @@ a:hover{
         width: 290px;
     }
     form h2{
-        font-size: 2.4rem;
+        font-size: 1.2rem;
         margin: 8px 0;
     }
     .img img{
