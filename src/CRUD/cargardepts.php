@@ -5,6 +5,6 @@
     $result=$db->prepare($query);
     
     foreach($result){
-        
+        echo($result);
     }
 ?>
