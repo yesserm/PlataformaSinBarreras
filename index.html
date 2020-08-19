@@ -16,7 +16,6 @@
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -182,10 +181,9 @@
 
     <div class="row">
 
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+    <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100"> 
-          <a href="#"><img class="card-img-top"  src="img/O.jpg" alt=""></a> 
-
+          <a onmouseover="cambiar();" onmouseout="volver();" href="#"><img class="card-img-top"  src="img/O.jpg" id="matrix"></a> 
           <div class="card-body">
             <h4 class="card-title">
               <a href="empleos.html">Empleos</a>
@@ -195,9 +193,10 @@
         </div>
       </div>
 
+
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="img/BB.png" alt=""></a>
+          <a onmouseover="cambio();" onmouseout="vuelve();"><img class="card-img-top" src="img/BB.png"   id="matrixa"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="portfolio-1-col.html">Cursos</a>
@@ -209,7 +208,7 @@
     
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="img/library.jpg" alt=""></a>
+          <a href="#" onmouseover="cambios();" onmouseout="vuelves();"><img class="card-img-top" src="img/library.jpg" id="matrixb"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Biblioteca virtual</a>
@@ -220,7 +219,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="img/socio.jpg" alt="" ></a>
+          <a href="#" onmouseover="cambios1();" onmouseout="vuelves1();"><img class="card-img-top" src="img/socio.jpg" id="matrixc" ></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="NuestrosSocios.html">Nuestros socios</a>
@@ -231,7 +230,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="img/servicios.jpg" alt=""></a>
+          <a href="#" onmouseover="cambios2();" onmouseout="vuelves2();"><img class="card-img-top" src="img/servicios.jpg" id="matrixd"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Servicios</a>
@@ -242,7 +241,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="img/AGENDA.png" alt=""></a>    
+          <a href="#" onmouseover="cambios3();" onmouseout="vuelves3();"><img class="card-img-top" src="img/AGENDA.png" id="matrixe" alt=""></a>    
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Agendas</a>
@@ -342,3 +341,65 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+ //para CURSOS
+ function cambio () {
+   document.getElementById('matrixa').src = "img/servicios.jpg";
+ }
+   
+ function vuelve () {
+   document.getElementById('matrixa').src = "img/BB.png";
+ }
+</script>
+
+<script type="text/javascript">
+//para EMPLEO
+  function cambiar () {
+   document.getElementById('matrix').src = "img/servicios.jpg";
+ }
+   
+ function volver () {
+   document.getElementById('matrix').src = "img/O.jpg";
+ }
+ </script>
+
+<script type="text/javascript">
+  //para BIBLIOTECA
+  function cambios () {
+    document.getElementById('matrixb').src = "img/servicios.jpg";
+  }
+    
+  function vuelves () {
+    document.getElementById('matrixb').src = "img/library.jpg";
+  }
+ </script>
+ 
+<script type="text/javascript">
+  //para SOCIOS
+  function cambios1 () {
+    document.getElementById('matrixc').src = "img/servicios.jpg";
+  }
+    
+  function vuelves1 () {
+    document.getElementById('matrixc').src = "img/socio.jpg";
+  }
+
+    //para SERVICIOS
+    function cambios2 () {
+    document.getElementById('matrixd').src = "img/servicios.jpg";
+  }
+    
+  function vuelves2 () {
+    document.getElementById('matrixd').src = "img/socio.jpg";
+  }
+
+    //para AGENDAS
+    function cambios3 () {
+    document.getElementById('matrixe').src = "img/servicios.jpg";
+  }
+    
+  function vuelves3 () {
+    document.getElementById('matrixe').src = "img/AGENDA.png";
+  }
+ </script>

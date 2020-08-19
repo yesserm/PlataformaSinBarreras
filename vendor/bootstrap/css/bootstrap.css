@@ -4598,7 +4598,7 @@ input[type="button"].btn-block {
 }
 
 .card-link:hover {
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .card-link + .card-link {
