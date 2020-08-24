@@ -11,6 +11,9 @@
     color: white;
     text-align: center;
 }
+#sec{
+    padding: 10px;
+}
 #txA{
     width: 48%;
     background: #24303c;
@@ -22,4 +25,18 @@
     font-family: 'calibri';
     font-size: 18px;
     color: white;
+}
+#contened_c{
+    margin-top: 25px;
+    font-size: 12px;
+}
+#h2{
+    margin-top: 5px;
+    font-size: 40px;
+}
+#btn1{
+    margin-top: 15px;
+}
+#foot{
+    margin-top: 10.9%;
 }
