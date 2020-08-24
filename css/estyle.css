@@ -36,7 +36,17 @@
 }
 #btn1{
     margin-top: 15px;
+    color: white;
+    background-color: #343A40;
 }
 #foot{
     margin-top: 10.9%;
+}
+#acceso{
+    background-image: url("../RECURSOS/fondit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec{
+    color: white;
 }
